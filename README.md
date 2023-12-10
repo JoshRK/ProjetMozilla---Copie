@@ -107,6 +107,9 @@ Ce read.me sera mis à jour durant les vacances de Noël pour trouver une soluti
 
 ## UML
 
+![alt text]((https://github.com/JoshRK/ProjetMozilla---Copie/blob/main/UML_Projet_Mozilla.png)?raw=true)
+
+
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
