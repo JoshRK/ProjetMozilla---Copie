@@ -106,3 +106,7 @@ Il est donc évident qu'il ne s'agit pas la de la bonne solution.
 Ce read.me sera mis à jour durant les vacances de Noël pour trouver une solution viable et permettre un affiche similaire au projet Ghibli.
 
 ## UML
+
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
