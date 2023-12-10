@@ -28,3 +28,32 @@ Ce projet est une mise en pratique des concepts abordés dans le [tutoriel d'int
    ```bash
    git clone https://github.com/votre-nom-utilisateur/site-web-bibliotheque-locale.git
    cd site-web-bibliotheque-locale
+
+ Installez les dépendances :
+
+bash
+
+npm install
+
+Configurez la base de données :
+
+bash
+
+    npm run seed
+
+Utilisation
+
+Exécutez l'application :
+
+bash
+
+npm start
+
+Visitez http://localhost:3000/ dans votre navigateur.
+Dépendances
+
+    Express
+    Mongoose
+    Pug
+
+Pour une liste complète des dépendances, consultez le fichier package.json.
