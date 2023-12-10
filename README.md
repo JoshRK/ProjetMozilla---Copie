@@ -86,7 +86,7 @@ Pour une liste complète des dépendances, consultez le fichier package.json.
 ├── populatedb.js
 ├── wiki.js
 └── .gitignore
-
+```
 
 ## TentativeImage
 
