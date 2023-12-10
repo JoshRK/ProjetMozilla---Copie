@@ -24,6 +24,9 @@ block content
     div.form-group
         label(for='cover') cover:
         input#cover.form-control(type='text', placeholder='Url image cover' name='cover' value=(undefined===book ? '' : book.cover) required='true')
+    div.form-group
+        label(for="image") Upload Image
+        input(type="file", id="image", name="image", value="", required)
     button.btn.btn-primary(type='submit') Submit
 
   if errors
