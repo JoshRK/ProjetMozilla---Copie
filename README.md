@@ -50,8 +50,9 @@ Dépendances
 
 Pour une liste complète des dépendances, consultez le fichier package.json.
 
-## arborescence
+## Arborescence
 
+```vbnet
 ├── bin
 │   ├── www.js
 ├── controllers
