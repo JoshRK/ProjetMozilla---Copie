@@ -47,3 +47,40 @@ Dépendances
     Pug
 
 Pour une liste complète des dépendances, consultez le fichier package.json.
+
+## Arborescence
+
+├── bin
+│   ├── www.js
+├── controllers
+│   ├── authorController.js
+│   ├── bookController.js
+├── models
+│   ├── author.js
+│   ├── book.js
+├── public
+│   ├── images
+│   ├── javascripts
+│   ├── stylesheets
+│   │   ├── style.css
+├── routes
+│   ├── catalog.js
+│   ├── index.js
+│   ├── users.js
+├── views
+│   ├── author_delete.pug
+│   ├── author_details.pug
+│   ├── author_form.pug
+│   ├── author_list.pug
+│   ├── book_delete.pug
+│   ├── book_details.pug
+│   ├── book_form.pug
+│   ├── book_list.pug
+│   ├── error.pug
+│   ├── index.pug
+│   ├── layout.pug
+├── app.js
+├── populatedb.js
+├── wiki.js
+└── .gitignore
+
