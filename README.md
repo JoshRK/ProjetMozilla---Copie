@@ -33,10 +33,12 @@ Ce projet est une mise en pratique des concepts abordés dans le [tutoriel d'int
    ```bash
    npm install
 
-3.Exécutez l'application :
+3. Clonez le dépôt :
 
    ```bash
    npm start
+
+
 
 Visitez http://localhost:3000/ dans votre navigateur.
 
