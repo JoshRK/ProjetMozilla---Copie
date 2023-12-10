@@ -9,6 +9,7 @@ Ce projet est un site web simple de bibliothèque locale construit avec Express 
 - [Installation](#installation)
 - [Arborescence](#arborescence)
 - [Tentative image](#TentativeImage)
+- [UML](#UML)
 
 ## Introduction
 
@@ -90,9 +91,18 @@ Pour une liste complète des dépendances, consultez le fichier package.json.
 
 ## TentativeImage
 
-Bien que j'aie initialement mis en œuvre un système d'ajout d'image via une URL, il est important de souligner que cette approche peut poser des risques de sécurité substantiels. Après avoir évalué les implications, j'ai décidé de désactiver cette fonctionnalité pour éviter tout impact négatif sur la sécurité du système.
+Comme nous en avions discuter en cours j'ai fais plusieurs tentative pour mettre en place des images sur le site. Il est impossible de stocker des images directement sur MangoDB (du moins ce ne serait pas une bonne pratique et je n'ai pas vu de tuto qui fonctionnaient pour moi). J'ai donc tenter de mettre en place une firebase de google afin de stocker une image uploadé via le formulaire et récuperer uniquement son token comme attribut "cover" sous forme donc d'une chaine de caractère dans le schema du livre. Cependant le lien avec MangoDB était un calvaire pour essayer de faire le lien entre quel image correspondait à chaque livre j'ai donc abandonné cette solution pensant qu'elle était pas viable mais en écrivant ceci je me rend compte qu'en uploadant peut etre l'ISBN du livre associé à la cover j'aurais pu faire en sorte que cela fonctionne. 
 
-Cependant, afin de conserver une trace de cette tentative, j'ai laissé en place le code correspondant, mais exclusivement pour le livre "Des Fleurs pour Algernon". Dans ce cas spécifique, la fonctionnalité est maintenue en raison de son succès, permettant l'affichage de la couverture du livre. Pour distinguer ce cas particulier, j'ai introduit l'attribut "cover" spécifiquement pour ce livre.
+Je me suis donc orienté sur une seconde proposition qui visait simplementt à autoriser l'utilisateur à mettre un lien d'une image dans le formulaire.
 
+Il est important de souligner que cette approche peut poser des risques de sécurité substantiels.
+Surtout du au fait que j'ai désactivé toute les vérifications du au fait que je n'arrivais pas a trouver un ensemble de vérification qui me permettrait d'assurer la sécurité.
+
+Cependant, afin de conserver une trace de cette tentative, j'ai laissé en place le code correspondant, mais exclusivement pour le livre "Des Fleurs pour Algernon".
 Il est crucial de noter que cette décision a été prise en toute connaissance de cause, en tenant compte des risques potentiels. Si d'autres approches plus sécurisées pour cette fonctionnalité sont envisagées à l'avenir, elles devront être mises en œuvre pour garantir la sécurité globale du système.
 
+Il est donc évident qu'il ne s'agit pas la de la bonne solution.
+
+Ce read.me sera mis à jour durant les vacances de Noël pour trouver une solution viable et permettre un affiche similaire au projet Ghibli.
+
+## UML
