@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  h1 Full name : #{author.name}
+
+  p #[strong Author :]
+    a(href=author.url) #{author.name}
+  p #[strong first_name :] #{author.first_name}
+  p #[strong family_name :] #{author.family_name}
+  p #[strong date_of_birth :] #{author.date_of_birth}
+
+  if author.date_of_death
+    p #[strong date_of_death :] #{author.date_of_death}
+  else
+    p #[strong date_of death :] Je suis pas encore mort !
+
+  if author_books 
+  
+    p #[strong Livre écrit par #{author.name} :] 
+  
+        each book in author_books
+            dt
+            a(href=book.url) #{book.title}
+            dd #{book.summary}
+  else
+    p #[strong Livre écrit par #{author.name} :]
+        p Aucun livre n'est actuellement référencé
+  hr
+  p
+    a(href=author.url+'/delete') Delete author
+  p
+    a(href=author.url+'/update') Update author
+
