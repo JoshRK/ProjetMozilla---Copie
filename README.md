@@ -87,3 +87,12 @@ Pour une liste complète des dépendances, consultez le fichier package.json.
 ├── wiki.js
 └── .gitignore
 
+
+## TentativeImage
+
+Bien que j'aie initialement mis en œuvre un système d'ajout d'image via une URL, il est important de souligner que cette approche peut poser des risques de sécurité substantiels. Après avoir évalué les implications, j'ai décidé de désactiver cette fonctionnalité pour éviter tout impact négatif sur la sécurité du système.
+
+Cependant, afin de conserver une trace de cette tentative, j'ai laissé en place le code correspondant, mais exclusivement pour le livre "Des Fleurs pour Algernon". Dans ce cas spécifique, la fonctionnalité est maintenue en raison de son succès, permettant l'affichage de la couverture du livre. Pour distinguer ce cas particulier, j'ai introduit l'attribut "cover" spécifiquement pour ce livre.
+
+Il est crucial de noter que cette décision a été prise en toute connaissance de cause, en tenant compte des risques potentiels. Si d'autres approches plus sécurisées pour cette fonctionnalité sont envisagées à l'avenir, elles devront être mises en œuvre pour garantir la sécurité globale du système.
+
