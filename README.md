@@ -7,6 +7,8 @@ Ce projet est un site web simple de bibliothèque locale construit avec Express 
 - [Introduction](#introduction)
 - [Fonctionnalités](#fonctionnalités)
 - [Installation](#installation)
+- [Arborescence](#arborescence)
+- [Tentative image](#Tentative Image)
 
 ## Introduction
 
