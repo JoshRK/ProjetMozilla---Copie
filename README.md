@@ -48,7 +48,7 @@ Dépendances
 
 Pour une liste complète des dépendances, consultez le fichier package.json.
 
-## Arborescence
+## arborescence
 
 ├── bin
 │   ├── www.js
