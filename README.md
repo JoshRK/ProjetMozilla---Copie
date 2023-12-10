@@ -7,9 +7,6 @@ Ce projet est un site web simple de bibliothèque locale construit avec Express 
 - [Introduction](#introduction)
 - [Fonctionnalités](#fonctionnalités)
 - [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Dépendances](#dépendances)
-- [Licence](#licence)
 
 ## Introduction
 
@@ -26,8 +23,7 @@ Ce projet est une mise en pratique des concepts abordés dans le [tutoriel d'int
 1. Clonez le dépôt :
 
    ```bash
-   git clone https://github.com/votre-nom-utilisateur/site-web-bibliotheque-locale.git
-   cd site-web-bibliotheque-locale
+   git clone [adresse du repository]
 
 
 2. Installez les dépendances : 
@@ -36,6 +32,7 @@ Ce projet est une mise en pratique des concepts abordés dans le [tutoriel d'int
    npm install
 
 3.Exécutez l'application :
+
    ```bash
    npm start
 
